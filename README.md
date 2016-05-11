@@ -15,4 +15,6 @@ The logic for the double click and long press are fairly involved so no errors o
 
 The encoder pins are connected to GPIO pins and no hardware quadrature encoder counters are used since the pulse rate is low. After connecting up the encoder, you should define the appropriate pins in the file encoder_dc.h.
 
+The hardware platform is a NAZE32 (or FLIP32 or similar), running a STM332F103 processor, but any similar processor board can be used as no specific extra hardware or peripherals are required.
+
 More information to be found at the previous version of the code: https://github.com/ahmetonat/STM32F10X-GCC-Encoder.git
